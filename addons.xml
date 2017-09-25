@@ -47,11 +47,6 @@
 
 <addon id="repository.kong" name="Dev Kong Repository" version="1.00" provider-name="@_pydev_">
     <extension point="xbmc.addon.repository" name="Dev Kong Repository">
-    <dir>
-        <info compressed="false">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml</info>
-        <checksum>https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/addons.xml.md5</checksum>
-        <datadir zip="true">https://raw.githubusercontent.com/Colossal1/repository.colossus.common/master/</datadir>
-    </dir>
         <info compressed="false">https://raw.githubusercontent.com/Dev-kong/repository.kong/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Dev-kong/repository.kong/master/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.githubusercontent.com/Dev-kong/repository.kong/master/zips/</datadir>

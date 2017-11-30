@@ -45,6 +45,21 @@
   </extension>
 </addon>
 
+<addon id="plugin.video.Kongspock" name="Rock Paper Scissors Spock" version="1.0.0" provider-name="@_PYDEV_">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+    <import addon="script.module.addon.common" version="2.0.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+    <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">A Simple Game Created In Python by Dev Kong For Kodi</summary>
+    <description lang="en">An Simple Rock Paper Scissors Game Created In python for Kodi With the Addition of The Famous Spock Option From The Big Bang Theory</description>
+    <platform>all</platform>
+  </extension>
+</addon>
+
 <addon id="repository.kong" name="Dev Kong Repository" version="1.00" provider-name="@_pydev_">
     <extension point="xbmc.addon.repository" name="Dev Kong Repository">
         <info compressed="false">https://raw.githubusercontent.com/Dev-kong/repository.kong/master/addons.xml</info>

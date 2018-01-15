@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="plugin.program.emoji" name="Guess The Emoji" version="1.0.0" provider-name="@_PYDEV_">
+<addon id="plugin.program.emoji" name="Guess The Emoji" version="1.0.0" provider-name="@_DevKong">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
@@ -10,13 +10,13 @@
   </extension>
   <extension point="xbmc.addon.metadata">
   <platform>all</platform>
-    <summary lang="en">[COLOR white]Twitter: @[/COLOR][COLOR yellowgreen]_pydev_[/COLOR]</summary>
-    <description lang="en">[COLOR white]A Fun And Free Game For Kodi by @_pydev_.[/COLOR]</description>
+    <summary lang="en">[COLOR white]Twitter: @[/COLOR][COLOR yellowgreen]_DevKong[/COLOR]</summary>
+    <description lang="en">[COLOR white]A Fun And Free Game For Kodi by @_DevKong.[/COLOR]</description>
     <disclaimer lang="en"></disclaimer>
     <language></language>
     <license></license>
-    <website>http://devraiden.com</website>
-    <email>KingKong@devraiden.com</email>
+    <website>http://kongsblog.com</website>
+    <email>kong@kongsblog.com</email>
     <assets>
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
@@ -30,7 +30,7 @@
   </extension>
 </addon>
 
-<addon id="plugin.video.KongKidz" name="KongKidz" version="2.0.3" provider-name="@_PYDEV_">
+<addon id="plugin.video.Kongspock" name="Rock Paper Scissors Spock" version="1.0.0" provider-name="@_DevKong">
   <requires>
     <import addon="xbmc.python" version="2.1.0"/>
     <import addon="script.module.addon.common" version="2.0.0" />
@@ -39,28 +39,13 @@
     <provides>video</provides>
   </extension>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en">KongKidz</summary>
-    <description lang="en">A fun and colourful Kids add-on for Kodi created by KingKong</description>
-    <platform>all</platform>
-  </extension>
-</addon>
-
-<addon id="plugin.video.Kongspock" name="Rock Paper Scissors Spock" version="1.0.0" provider-name="@_PYDEV_">
-  <requires>
-    <import addon="xbmc.python" version="2.1.0"/>
-    <import addon="script.module.addon.common" version="2.0.0" />
-  </requires>
-  <extension point="xbmc.python.pluginsource" library="default.py">
-    <provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-    <summary lang="en">A Simple Game Created In Python by Dev Kong For Kodi</summary>
+    <summary lang="en">A Simple Game Created In Python by @_DevKong For Kodi</summary>
     <description lang="en">An Simple Rock Paper Scissors Game Created In python for Kodi With the Addition of The Famous Spock Option From The Big Bang Theory</description>
     <platform>all</platform>
   </extension>
 </addon>
 
-<addon id="repository.kong" name="Dev Kong Repository" version="1.00" provider-name="@_pydev_">
+<addon id="repository.kong" name="Dev Kong Repository" version="1.00" provider-name="@_DevKong">
     <extension point="xbmc.addon.repository" name="Dev Kong Repository">
         <info compressed="false">https://raw.githubusercontent.com/Dev-kong/repository.kong/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/Dev-kong/repository.kong/master/addons.xml.md5</checksum>
